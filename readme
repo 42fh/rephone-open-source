@@ -1,0 +1,11 @@
+一、md5 校验
+md5sum -c 0007_R_mp1_K6316Q3GS_20211112.md5
+
+root@prize:~/code/androidR/mp1/alps# md5sum -c  0007_R_mp1_K6316Q3GS_20211112.md5 
+0007_R_mp1_K6316Q3GS_20211112.tar.gz: OK
+
+二、代码解压
+tar -zxvf  0007_R_mp1_K6316Q3GS_20211112.tar.gz
+
+三、代码编译
+root@prize:~/code/androidR/mp1/0007_R_mp1_K6316Q3GS_20211112# ./make_odm_kernel.sh 
